@@ -16,3 +16,5 @@ body{background-color:#060606!important;}
 
 .c-bg{background-color:#0a0a0a!important;}
 .c-border{border-color:#191919!important;}
+
+.btn:hover{background-color:blue!important;color:yellow!important;border-color:yellow!important;}
