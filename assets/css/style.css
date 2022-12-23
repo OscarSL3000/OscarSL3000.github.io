@@ -1,20 +1,13 @@
 @charset "UTF-8";
 
-*{transition:all 100ms ease-in-out 0ms!important;border-radius:4px!important;}
+*{transition:all 100ms ease-in-out 0ms!important;}
 
-@font-face{font-family:"Poppins-Black";src:url("../fonts/Poppins-Black.ttf");}
-@font-face{font-family:"Poppins-Medium";src:url("../fonts/Poppins-Medium.ttf");}
-@font-face{font-family:"Poppins-Regular";src:url("../fonts/Poppins-Regular.ttf");}
+@font-face{font-family:"Ubuntu-Bold";src:url("../fonts/Ubuntu-Bold.ttf");}
+@font-face{font-family:"Ubuntu-Medium";src:url("../fonts/Ubuntu-Medium.ttf");}
+@font-face{font-family:"Ubuntu-Regular";src:url("../fonts/Ubuntu-Regular.ttf");}
 
-.font-l{font-family:"Poppins-Black"!important;}
-.font-m{font-family:"Poppins-Medium"!important;}
-.font-s{font-family:"Poppins-Regular"!important;}
+.font-b{font-family:"Ubuntu-Bold";}
+.font-m{font-family:"Ubuntu-Medium";}
+.font-r{font-family:"Ubuntu-Regular";}
 
 body{background-color:#060606!important;}
-
-.text{color:#ffffff!important;}
-
-.c-bg{background-color:#0a0a0a!important;}
-.c-border{border-color:#191919!important;}
-
-.btn:hover{background-color:blue!important;color:yellow!important;border-color:yellow!important;}
