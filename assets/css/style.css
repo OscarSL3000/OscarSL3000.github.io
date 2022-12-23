@@ -14,3 +14,7 @@ body{background-color:#060606!important;}
 
 .btn:hover,.nav-link:hover{color:yellow!important;background-color:blue!important;border-color:yellow!important;}
 .btn:focus,.nav-link:focus{color:blue!important;background-color:yellow!important;border-color:blue!important;}
+
+.navbar-brand:hover{color:yellow!important;}
+
+.btn{border-width:2px!important;}
