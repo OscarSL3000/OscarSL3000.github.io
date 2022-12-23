@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*{transition:all 100ms ease-in-out 0ms!important;}
+*{transition:all 100ms ease-in-out 0ms!important;border-radius:4px!important;}
 
 @font-face{font-family:"Ubuntu-Bold";src:url("../fonts/Ubuntu-Bold.ttf");}
 @font-face{font-family:"Ubuntu-Medium";src:url("../fonts/Ubuntu-Medium.ttf");}
@@ -11,3 +11,6 @@
 .font-r{font-family:"Ubuntu-Regular";}
 
 body{background-color:#060606!important;}
+
+.btn:hover,.nav-link:hover{color:yellow!important;background-color:blue!important;border-color:yellow!important;}
+.btn:focus,.nav-link:focus{color:blue!important;background-color:yellow!important;border-color:blue!important;}

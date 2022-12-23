@@ -1,0 +1,3 @@
+Bootstrap v5.2.3
+ScrollRevealJS v4.0.9
+Ubuntu Font (From Google Fonts)
