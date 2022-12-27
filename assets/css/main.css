@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+  --dark-color: #060606;
+  --light-color: #ffffff;
+  --theme-color: #7d00ff;
+}
+
+*{transition:all 80ms ease-in-out 0ms!important;border-radius:4px!important;}
+
+*,*:hover,*:focus{cursor:crosshair!important;}
+
+::selection{color:var(--theme-color)!important;}
+
+@font-face{font-family:"Ubuntu-Bold";src:url("../fonts/Ubuntu-Bold.ttf");}
+@font-face{font-family:"Ubuntu-Medium";src:url("../fonts/Ubuntu-Medium.ttf");}
+@font-face{font-family:"Ubuntu-Regular";src:url("../fonts/Ubuntu-Regular.ttf");}
+
+.font-b{font-family:"Ubuntu-Bold";}
+.font-m{font-family:"Ubuntu-Medium";}
+.font-r{font-family:"Ubuntu-Regular";}
+
+body{background-color:var(--dark-color)!important;color:var(--light-color)!important;}
+
+.theme-color{color:var(--theme-color)!important;}
+.theme-border{border-color:var(--theme-color)!important;}
+.theme-bg{background-color:var(--theme-color)!important;}
+
+.bg-color{background-color:var(--dark-color)!important;}
+.text-color{color:var(--light-color)!important;}
