@@ -20,7 +20,9 @@
 
 body{background-color:#060606!important;}
 
-.btn{border-width:2px!important;}
+.card{background-color:#060606!important;}
+
+.btn,.card{border-width:2px!important;}
 
 .nav-link:hover{color:var(--theme-color-1)!important;}
 .active{color:var(--theme-color-1)!important;}
@@ -31,3 +33,5 @@ body{background-color:#060606!important;}
 .active:focus{color:var(--theme-color-2)!important;}
 .btn:focus{color:var(--theme-color-2)!important;border-color:var(--theme-color-2)!important;background-color:#060606!important;}
 .navbar-brand:focus{color:var(--theme-color-2)!important;}
+
+*,*:hover,*:focus{cursor:crosshair!important;}
