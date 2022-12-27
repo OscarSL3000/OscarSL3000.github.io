@@ -1,4 +1,4 @@
-# Main Website
+# My main personal website. Includes all my projects and everything.
 
 Stuff Used:
 - [Bootstrap](https://getbootstrap.com/)
