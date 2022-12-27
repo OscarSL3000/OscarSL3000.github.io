@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
-*{transition:all 100ms ease-in-out 0ms!important;border-radius:4px!important;}
+:root {
+  --theme-color-1: #7d32e1;
+  --theme-color-2: #4b7dff;
+  --theme-color-3: #e1327d;
+}
+
+*{transition:all 80ms ease-in-out 0ms!important;border-radius:4px!important;}
+
+::selection{color:var(--theme-color-3)!important;}
 
 @font-face{font-family:"Ubuntu-Bold";src:url("../fonts/Ubuntu-Bold.ttf");}
 @font-face{font-family:"Ubuntu-Medium";src:url("../fonts/Ubuntu-Medium.ttf");}
@@ -12,9 +20,14 @@
 
 body{background-color:#060606!important;}
 
-.btn:hover,.nav-link:hover{color:yellow!important;background-color:blue!important;border-color:yellow!important;}
-.btn:focus,.nav-link:focus{color:blue!important;background-color:yellow!important;border-color:blue!important;}
-
-.navbar-brand:hover{color:yellow!important;}
-
 .btn{border-width:2px!important;}
+
+.nav-link:hover{color:var(--theme-color-1)!important;}
+.active{color:var(--theme-color-1)!important;}
+.btn:hover{color:var(--theme-color-1)!important;border-color:var(--theme-color-1)!important;background-color:#060606!important;}
+.navbar-brand:hover{color:var(--theme-color-1)!important;}
+
+.nav-link:focus{color:var(--theme-color-2)!important;}
+.active:focus{color:var(--theme-color-2)!important;}
+.btn:focus{color:var(--theme-color-2)!important;border-color:var(--theme-color-2)!important;background-color:#060606!important;}
+.navbar-brand:focus{color:var(--theme-color-2)!important;}
