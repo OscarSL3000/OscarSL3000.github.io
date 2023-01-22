@@ -39,5 +39,5 @@ body{background-color:var(--dark-color)!important;overflow-x:hidden!important;}
 .alert,.btn,.card,.rounded,button,img{border-radius:4px!important;}
 .btn,.card,button{border-width:2px!important;}
 
-.nav-doc-item{color:var(--other-color)!important;}
+.nav-doc-item{color:var(--other-color)!important;white-space:nowrap;}
 .nav-doc-item:hover{color:var(--theme-color)!important;}
