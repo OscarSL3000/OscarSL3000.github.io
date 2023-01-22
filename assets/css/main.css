@@ -4,6 +4,7 @@
   --dark-color: #060606;
   --light-color: #ffffff;
   --theme-color: #7d00ff;
+  --other-color: #007dff;
 }
 
 *{transition:all 80ms ease-in-out 0ms!important;}
@@ -37,3 +38,6 @@ body{background-color:var(--dark-color)!important;overflow-x:hidden!important;}
 
 .alert,.btn,.card,.rounded,button,img{border-radius:4px!important;}
 .btn,.card,button{border-width:2px!important;}
+
+.nav-doc-item{color:var(--other-color)!important;}
+.nav-doc-item:hover{color:var(--theme-color)!important;}
