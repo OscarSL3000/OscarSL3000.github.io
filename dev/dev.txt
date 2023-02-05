@@ -1,5 +1,0 @@
-Bootstrap v5.3.0-alpha1
-Ubuntu-Font (From GoogleFonts)
-Syne-Font (From GoogleFonts)
-
-Last Updated: 27/12/22
